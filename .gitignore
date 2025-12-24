@@ -1,0 +1,7 @@
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Extension specific
+*.pem
+*.crx

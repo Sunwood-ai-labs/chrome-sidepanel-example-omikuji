@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Stylish Omikuji Side Panel",
+  "version": "1.0",
+  "description": "A stylish Omikuji (fortune-telling) app in your side panel.",
+  "permissions": [
+    "sidePanel"
+  ],
+  "action": {
+    "default_title": "Open Omikuji"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}

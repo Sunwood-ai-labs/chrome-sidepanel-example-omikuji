@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Omikuji</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>御神籤</h1>
+            <p class="subtitle">Your Fortune Awaits</p>
+        </header>
+
+        <main>
+            <div id="omikuji-box" class="omikuji-box">
+                <div class="box-top"></div>
+                <div class="box-body">
+                    <span class="box-label">おみくじ</span>
+                </div>
+            </div>
+
+            <div id="result-container" class="result-container hidden">
+                <div class="result-card">
+                    <div id="fortune-rank" class="rank"></div>
+                    <div id="fortune-text" class="text"></div>
+                    <div class="details">
+                        <div class="detail-item">
+                            <span class="label">願事</span>
+                            <span id="wish-text" class="value"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">待人</span>
+                            <span id="person-text" class="value"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">失物</span>
+                            <span id="lost-text" class="value"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <button id="draw-btn" class="draw-btn">運勢を占う</button>
+            <button id="reset-btn" class="reset-btn hidden">もう一度</button>
+        </footer>
+    </div>
+    <script src="sidepanel.js"></script>
+</body>
+</html>
