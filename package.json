@@ -1,0 +1,16 @@
+{
+    "name": "ex-omikuji",
+    "version": "1.0.0",
+    "description": "Stylish Omikuji Side Panel Extension",
+    "main": "background.js",
+    "scripts": {
+        "lint": "web-ext lint",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "web-ext": "^8.2.0"
+    }
+}

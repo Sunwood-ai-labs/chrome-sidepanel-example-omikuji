@@ -1,7 +1,8 @@
-# OS files
+node_modules/
+.DS_Store
 Thumbs.db
-Desktop.ini
-
-# Extension specific
-*.pem
-*.crx
+web-ext-artifacts/
+.vscode/
+.idea/
+*.log
+.env
